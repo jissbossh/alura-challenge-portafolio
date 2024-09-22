@@ -1,0 +1,38 @@
+@import url("styles/about.css");
+/* @import url("styles/animate.css"); */
+@import url("styles/contact.css");
+@import url("styles/education.css");
+@import url("styles/experience.css");
+@import url("styles/footer.css");
+@import url("styles/header.css");
+@import url("styles/hobbies.css");
+@import url("styles/profile.css");
+@import url("styles/reset.css");
+@import url("styles/skills.css");
+
+/*imortacion de fuente JetBrains Mono desde web*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+:root{
+    --color:#6ACFC7;
+    --font:"JetBrains Mono";
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family: var(--font), monospace;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color:var(--color);
+    overflow-x: hidden;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--color);
+}

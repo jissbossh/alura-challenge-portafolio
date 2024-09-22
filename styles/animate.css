@@ -1,0 +1,35 @@
+/* span {
+    display: inline-block;
+    border-right: 4px solid #61dafb;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(12, end), blink 0.75s step-end infinite;
+} */
+
+.type__writer:hover {
+    display: inline-block;
+    border-right: 4px solid #61dafb;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink 0.75s step-end infinite;
+}
+
+
+.typewriter h1 {
+    display: inline-block;
+    border-right: 4px solid #61dafb;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(12, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+

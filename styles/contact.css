@@ -1,0 +1,133 @@
+.contact {
+    height: 550px;
+    /*background-color: #e6eaea;*/
+    background-color: #444650;
+}
+
+.contact:hover {
+    filter: none;
+}
+
+.form__contact__content__img {
+    display: none;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form__contact__text {
+    padding: 5px;
+}
+
+.form__contact__title {
+    margin: 10px 30px;
+    font-weight: bold;
+}
+
+.form__contact__subtext {
+    margin: 5px 30px;
+}
+
+
+.form__contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__contact__input {
+    margin: 15px 30px;
+    height: 35px;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 4px -4px 8px rgba(124, 238, 208, 0.171);
+    /*outline-color: #a7aaaa;*/
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #6ACFC7;
+    background-color: rgb(173 172 172 / 71%);
+
+}
+
+.form__contact__textarea {
+    margin: 15px 30px;
+    height: 130px;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 4px -4px 8px rgba(124, 238, 208, 0.171);
+    /*outline-color: #6ACFC7;*/
+    padding: 5px 10px;
+    resize: none;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #6ACFC7;
+    background-color: rgb(173 172 172 / 71%);
+}
+
+input:focus {
+    background-color: rgb(173 172 172 / 71%) !important;
+    border-color: #6ACFC7 !important;
+
+}
+
+input::selection {
+    background-color: rgb(173 172 172 / 71%) !important;
+    color: #6ACFC7 !important;
+}
+
+.form__contact__boton {
+    margin: 10px 30px;
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    color: #6ACFC7;
+    background: inherit;
+    border: 1.5px solid;
+    border-radius: 5px;
+}
+
+.form__contact__boton:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 0px 15px rgba(241, 241, 241, 0.708);
+}
+
+@media (min-width: 768px) {
+
+    .form__contact__text {
+        padding: 15px 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+    }
+
+    .form__contact__content {
+        display: flex;
+    }
+
+    .form__contact__content__img {
+        display: flex;
+    }
+
+    .form__contact__img {
+        height: 500px;
+    }
+
+    .form__contact__text {
+        padding: 0;
+        height: 400px;
+    }
+
+    .form__contact__title {
+        font-size: 30px;
+    }
+
+    .form__contact__subtext {
+        font-size: 18px;
+    }
+}
