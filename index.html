@@ -87,48 +87,26 @@
             <section id="contact" class="contact">
                 <div class="form__contact__content">
                     <div class="form__contact__content__img">
-                        <img class="form__contact__img"
-                            src="assets\images\png\contact_image.png">
+                        <img id="form-contact-img" class="form__contact__img">
                     </div>
                     <div class="form__contact__text">
-                        <h2 class="form__contact__title">Contacto</h2>
-                        <h3 class="form__contact__subtext">¿Quieres
-                            contactarme?</h3>
-                        <h3 class="form__contact__subtext">Complete el siguiente
-                            formulario y me pondré en contacto con usted lo
-                            antes
-                            posible. </h3>
-                        <form class="form__contact__form"
+                        <h2 id="form-contact-title"
+                            class="form__contact__title"></h2>
+                        <h3 id="form-contact-subtext01"
+                            class="form__contact__subtext"></h3>
+                        <h3 id="form-contact-subtext02" class="form__contact__subtext"></h3>
+                        <form id="form" class="form__contact__form"
                             name="form">
-                            <input class="form__contact__input"
-                                type="text"
-                                name="nombre"
-                                maxlength="50"
-                                placeholder="Nombre"
-                                required>
-                            <input class="form__contact__input"
-                                type="email"
-                                name="email"
-                                maxlength="50"
-                                placeholder="email@dominio.com"
-                                required>
-                            <input class="form__contact__input"
-                                type="text"
-                                name="asunto"
-                                maxlength="50"
-                                placeholder="Assunto"
-                                required>
-                            <textarea class="form__contact__textarea"
-                                rows="5"
-                                cols="40"
-                                id="mensagem"
-                                name="mensaje"
-                                maxlength="400"
-                                placeholder="Mensaje"
-                                required></textarea>
-                            <button type="submit"
-                                class="form__contact__boton">Enviar
-                                mensaje</button>
+                            <input id="form-contact-name"
+                                class="form__contact__input">
+                            <input id="form-contact-email"
+                                class="form__contact__input">
+                            <input id="form-contact-asunto"
+                                class="form__contact__input">
+                            <textarea id="form-contact-mensaje"
+                                class="form__contact__textarea"></textarea>
+                            <button id="form-contact-boton-enviar"
+                                class="form__contact__boton"></button>
                         </form>
                     </div>
                 </div>
@@ -150,8 +128,8 @@
             </div>
         </footer>
 
-        <script src="https://kit.fontawesome.com/ef3eea8822.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/ef3eea8822.js"
+            crossorigin="anonymous"></script>
         <script type="module" src="main.js"></script>
     </body>
-
 </html>
